@@ -22,4 +22,4 @@ The target element is pinned on page load, and it is unpinned when the scrollY p
 
 ## License
 
-Pin.js is released under the MIT License. See [LICENSE]
+It is released under the MIT License. See [LICENSE]

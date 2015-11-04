@@ -1,6 +1,6 @@
 # pin-unpin-es5
 
-Pin and UnPin plugin written in EcmaScript 5 (JavaScript ES5)!
+Pin and UnPin plugin written in JavaScript ES5 and css3 flexbox.
 
 The target element is pinned on page load, and it is unpinned when the scrollY position is passed by the checked (watched) element
 

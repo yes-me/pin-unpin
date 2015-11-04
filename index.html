@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+
+        <title>Pin and un-pin DOM element onScroll</title>
+
+ 
+	    <link rel="stylesheet" type="text/css" media="all" href="styles/main.css" /> 
+  </head>
+	
+  <body>
+	  
+	 <header>
+		 
+		 <div id="top-nav" class="yesme-top-nav">
+			 Top Navigation
+		 </div>
+		 
+	 </header>
+	  
+	 <section id='main' class='yesme-main'>
+		 
+		<section class="article-feed">
+			<article id="article1" class="article1">
+				
+				<h2 class="title1">First Article Headline</h2>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<img src="http://placehold.it/728x350">
+				 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</article> 
+			
+			<article id="article2" class="article2">
+				
+				<h2 class="title2">Second Article Headline</h2>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<img src="http://placehold.it/728x350">
+				 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</article> 
+		
+		</section>
+		 
+		<nav id="side-nav-wrapper">
+			
+			<div id="side-nav" class="yesme-side-nav yesme-pinOnTop">
+			    
+				<h4 class="side-nav-headline">Side Navigation</h4>
+				
+			  	<figure class="thumbnail">
+					 <img src="http://placehold.it/180x73">
+					<figcaption class="thumbnail-headline">Sub title </figcaption>
+				</figure>
+			  
+				<figure class="thumbnail">
+					 <img src="http://placehold.it/180x73">
+					<figcaption class="thumbnail-headline">Sub title </figcaption>
+				</figure>
+				
+				<figure class="thumbnail">
+					 <img src="http://placehold.it/180x73">
+					<figcaption class="thumbnail-headline">Sub title </figcaption>
+				</figure>
+				
+				<figure class="thumbnail">
+					 <img src="http://placehold.it/180x73">
+					 <figcaption class="thumbnail-headline">Sub title </figcaption>
+				</figure>
+				
+				<figure class="thumbnail">
+					 <img src="http://placehold.it/180x73">
+					<figcaption class="thumbnail-headline">Sub title </figcaption>
+				</figure>
+			</div>
+
+		</nav>
+
+		<aside>aside</aside>
+		 
+	  </section>
+	  
+	  <footer>
+		 <div class='yesme-footer'>
+			 footer @ 2015
+		 </div>
+	  </footer>
+	 
+	  <script src="scripts/pin-unpin.js"></script>
+  </body>
+	
+</html>
